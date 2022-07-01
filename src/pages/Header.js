@@ -8,10 +8,10 @@ const Header = () => {
     return (
         <React.Fragment>
         <div >
-        <nav style={{overflow: "hidden", position: "fixed", backgroundColor: "rgb(100,100,100)", opacity: "60%"}} class="navbar navbar-expand-lg navbar-light" id="mainNav">
+        <nav style={{overflow: "hidden", position: "fixed", backgroundColor: "rgb(100,100,100)", opacity: "65%"}} class="navbar navbar-expand-lg navbar-light" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="/">InTow</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" style={{color: "white"}} href="/">InTow</a>
+                <button class="navbar-toggler"  style={{color: "white"}} type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
