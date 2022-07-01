@@ -1195,7 +1195,7 @@ progress {
 
   .col-md-10 {
     flex: 0 0 auto;
-    width: 83.33333333%;
+    width: 100%;
   }
 
   .col-md-11 {
@@ -1398,7 +1398,7 @@ progress {
 
   .col-lg-8 {
     flex: 0 0 auto;
-    width: 66.66666667%;
+    width: 100%;
   }
 
   .col-lg-9 {
@@ -1606,7 +1606,7 @@ progress {
 
   .col-xl-7 {
     flex: 0 0 auto;
-    width: 58.33333333%;
+    width: 100%;
   }
 
   .col-xl-8 {
@@ -6795,9 +6795,7 @@ textarea.form-control-lg {
   justify-content: flex-end !important;
 }
 
-.justify-content-center {
-  justify-content: center !important;
-}
+
 
 .justify-content-between {
   justify-content: space-between !important;
@@ -11191,7 +11189,7 @@ header.masthead .post-heading .meta a {
   header.masthead .page-heading h1, header.masthead .page-heading .h1,
 header.masthead .site-heading h1,
 header.masthead .site-heading .h1 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
   header.masthead .post-heading h1, header.masthead .post-heading .h1 {
     font-size: 3.5rem;

@@ -1,71 +1,35 @@
-import Navigation from "../components/Navigation";
+import Footer from "./Footer";
+import Header from "./Header";
 
 const Homecontent = () => {
     return (
         <div>
-        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="index.html">InTow</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <Navigation />
-                </div>
-            </div>
-        </nav>
-        <header class="masthead" style={{backgroundImage: "url('img/home-bg.jpg')"}}>
-            <div class="container position-relative px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <div class="site-heading">
-                            <h1>Donate By your choice </h1>
-                            <span class="subheading">Accepting Dontation is Every Province</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-
+        <Header />
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-md-10 col-lg-8 col-xl-7">
 
                     <div class="post-preview">
                         <a href="post.html">
-                            <h2 class="post-title">Man must explore, and this is exploration at its greatest</h2>
-                            <h3 class="post-subtitle">Problems look mighty small from 150 miles up</h3>
+                            <h2 class="post-title">Donate a Car Today!</h2>
+
                         </a>
                         <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on September 24, 2022
-                        </p>
+                        We make it easy for you and the organisation you care about to donate a car. Giving old cars, removing cars, recycling cars, or just junking cars is a simple procedure for you and the charity that will benefit. Every gift is an honour for us to handle, and we're dedicated to giving our best service at every turn.                        </p>
+
+                        <li class="post-meta">Free towing or Pick-up in Every Province</li>
+                        <li class="post-meta">Simple online form</li>
+                        <li class="post-meta">Numerous Charities to Pick From</li>
+                        <li class="post-meta">Every gift is guaraneteed a tax receipt</li>
+
                     </div>
 
                     <hr class="my-4" />
 
                     <div class="post-preview">
-                        <a href="post.html"><h2 class="post-title">I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.</h2></a>
+                        <a href="post.html"><h2 class="post-title">Your Dependable Choice</h2></a>
                         <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on September 18, 2022
-                        </p>
-                    </div>
-
-                    <hr class="my-4" />
-
-                    <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Science has not yet mastered prophecy</h2>
-                            <h3 class="post-subtitle">We predict too much for the next year and yet far too little for the next ten.</h3>
-                        </a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on August 24, 2022
+                        Your automotive contribution has value in terms of money and sentiment. We promise to uphold both as part of our donor support commitment. The donation of your charity automobile will be carefully managed for you with honesty and attention to timely details so that you may give with ease to the cause that is most important to you.
                         </p>
                     </div>
 
@@ -73,58 +37,25 @@ const Homecontent = () => {
 
                     <div class="post-preview">
                         <a href="post.html">
-                            <h2 class="post-title">Failure is not an option</h2>
-                            <h3 class="post-subtitle">Many say exploration is part of our destiny, but it’s actually our duty to future generations.</h3>
+                            <h2 class="post-title">Donate Now and Make a Difference</h2>
                         </a>
                         <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on July 8, 2022
+                        The charity that means the most to you benefits from your used automobile contributions. Through InTow, you may choose to donate your car to ANY recognised Canadian charity, and we'll see to it that they have a simple time accepting it. Since there are no costs associated with participating in our gift-receiving programme, your charity of choice may use every dollar you donate to support the important work they are doing on behalf of Canadians just like you.
                         </p>
+
+                        <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="/DonateToday">Donate Now →</a></div>
                     </div>
 
                     <hr class="my-4" />
 
-                    <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#!">Older Posts →</a></div>
+
+  
+
+
                 </div>
             </div>
         </div>
-
-        <footer class="border-top">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <ul class="list-inline text-center">
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a href="#!">
-                                    <span class="fa-stack fa-lg">
-                                        <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                                    </span>
-                                </a>
-                            </li>
-                        </ul>
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2022</div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        <Footer />
         </div>
     )
 }
