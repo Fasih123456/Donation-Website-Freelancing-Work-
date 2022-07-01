@@ -55,7 +55,7 @@ function HorizontalExample() {
     <div className='main body ui container'>
       <Form noValidate validated={validated} onSubmit={handleSubmit} style={{width: "100%", background: "white"}}>
         <div className='group'>
-        <h3 className='form-heading'>Charity</h3>
+        <h3 className='form-heading'>Thank You!</h3>
         <Form.Group  as={Row} className="mb-3" controlId="intialform">
           <Form.Label column sm={4} style={{paddingLeft: "10px"}}>
             1. Are you a registered Vehicle Owner
