@@ -57,10 +57,10 @@ function HorizontalExample() {
         <div className='group'>
         <h3 className='form-heading'>Charity</h3>
         <Form.Group  as={Row} className="mb-3" controlId="intialform">
-          <Form.Label column sm={6} style={{paddingLeft: "10px"}}>
+          <Form.Label column sm={4} style={{paddingLeft: "10px"}}>
             1. Are you a registered Vehicle Owner
           </Form.Label>
-          <Col sm={6} onChange={(e)=>handleshowextraquestion(e)}>
+          <Col sm={8} onChange={(e)=>handleshowextraquestion(e)}>
             <Form.Check
             required
               type="radio"
