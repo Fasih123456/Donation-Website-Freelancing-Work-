@@ -9,7 +9,7 @@ const FormText = (props) => {
           <Form.Label column sm={4}>
             {props.title}
           </Form.Label>
-          <Col sm={6} style={{paddingBottom: "8px"}}>
+          <Col sm={6} style={{paddingBottom: "8px", paddingTop: "16px"}}>
             <Form.Control name={props.name} required/>
           </Col>
         </Form.Group>
