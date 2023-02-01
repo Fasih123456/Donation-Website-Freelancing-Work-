@@ -1,8 +1,8 @@
 import { Accordion, Nav } from "react-bootstrap";
 
-const Accord = (props) => {
+const SmallAccord = (props) => {
   return (
-    <Accordion>
+    <Accordion style={{ width: "100%" }}>
       <Accordion.Item eventKey={props.id}>
         <Accordion.Header>{props.title}</Accordion.Header>
         <Accordion.Body>{props.content}</Accordion.Body>
@@ -11,4 +11,4 @@ const Accord = (props) => {
   );
 };
 
-export default Accord;
+export default SmallAccord;

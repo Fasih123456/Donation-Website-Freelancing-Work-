@@ -1,0 +1,17 @@
+.accordion {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+div {
+  padding-bottom: 10px;
+}
+
+* {
+  font-family: "Cabin", sans-serif !important;
+  font-size: 1em;
+}
+
+.post-meta {
+  font-style: normal !important;
+}

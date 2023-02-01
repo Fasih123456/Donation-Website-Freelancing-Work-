@@ -1,120 +1,111 @@
-import Header from './Header';
-import Footer from './Footer';
-import Accord from '../components/Accordion';
+import Header from "./Header";
+import Footer from "./Footer";
+import Accord from "../components/Accordion";
 
 const contents = [
-    
-    'Including but not limited to cars, trucks, vans, SUVs, trailers, RVs, and boats, we accept the majority of vehicles. Your car must meet a few requirements in order to be eligible. For example, the registered owner or their legal agent must donate the car. Automobile must be registered in Canada. Vehicle must be "complete" and without any significant component deficiencies. Vehicles with body damage are accepted. RVs, trailers, and boats will be subject to further restrictions. We are unable to accept vehicles that have insurance claims pending. Vehicles with liens or other encumbrances cannot be accepted. Although RVs must typically be dropped off, each instance will be treated differently.'
-    ,
-    `
-    A: To donate your vehicle, follow the steps below.
+  'We accept the majority of vehicles, including but not limited to cars, trucks, vans, SUVs, trailers, RVs, and boats. To be eligible, your vehicle must meet a few criteria. The registered owner, for example, or their legal representative, must donate the vehicle. A car must be registered in Canada. The vehicle must be "complete," with no significant component flaws. Vehicles with minor body damage are welcome. RVs, trailers, and boats will face additional restrictions. We are unable to accept vehicles with pending insurance claims. Vehicles that have liens or other encumbrances are not accepted. Although RVs must usually be dropped off, each case is handled differently.',
+  `
+    A: To donate your vehicle, please follow the steps outlined below.
 
-    Choose the "Donate Now" tab from the home page. To qualify your vehicle, you will need to respond to a few straightforward questions here.
-Include details about your car, your contact information, and the organization you want to donate to on the donation form.
-Review the information you have provided, accept the terms and conditions, and then submit the donation request for your car.
-Additional directions will be given for towing or dropping off.
-For our email confirmation, check your inbox. Please check your junk mail folder if you do not immediately see the confirmation message.
-Please click the link more info for comprehensive information on this subject.
-    `
-    ,
-    `
-    This sum is calculated using a variety of criteria. Please click on this link, more info, for more information that is more specific.
-    `
-    ,
-    `
-    Yes, we can take automobiles that aren't running.
-    `
-    ,
-    `
-    There must be ownership documentation on file. A bill of sale, a letter from your local registry requesting "evidence of last car registration," or a current or expired registration are all acceptable.
-    `
-    ,
-    `
-    Once it has been picked up by our towing provider and is being recycled, your car no longer needs insurance. We advise you to maintain coverage on your car until it is sold if it is coming up for auction. When your car has been sold, we'll send you an email to let you know.
-    `
-    ,
-    `
-    Within 48 hours, one of our towing agents will get in touch with you. You may then plan for the pick-up of your car at a time that is most convenient for you.
-    `
-    ,
-    `
-    The vehicle's registered owner is the rightful owner of the licence plates. The auction house or recycling company will store or remove the licence plates if they are still attached to the car when it is donated. To prevent a non-registered owner from using the plate, recyclers often smash, shred, or mark it.
+From the home page, select the "Donate Now" button. To qualify your vehicle, you will need to answer a few simple questions here.
+On the donation form, include information about your vehicle, your contact information, and the organisation to which you want to donate.
+Examine the information you've provided, agree to the terms and conditions, and then submit your car donation request.
+Additional instructions for towing or dropping off will be provided.
+Check your inbox for our email confirmation. If you do not receive the confirmation message right away, please check your junk mail folder.
+For more information on this subject, please see the link more info.
+    `,
+  `
+    This total is determined by a number of factors. Please click on this link, more info, for more specific information.
+    `,
+  `
+    Yes, we can take non-running automobiles.
+    `,
+  `
+    There must be proof of ownership on file. A bill of sale, a letter from your local registry requesting "evidence of last car registration," or a current or expired registration are all acceptable forms of identification.
+    `,
+  `
+    Your car no longer requires insurance after it has been picked up by our towing provider and recycled. If your car is up for auction, we recommend that you keep coverage on it until it is sold. We'll notify you via email once your vehicle has been sold.
+    `,
+  `
+    One of our towing agents will contact you within 48 hours. You can then arrange for your car to be picked up at a time that is most convenient for you.
+    `,
+  `
+The licence plates belong to the registered owner of the vehicle. If the licence plates are still attached to the car when it is donated, the auction house or recycling company will store or remove them. Recyclers frequently smash, shred, or mark licence plates to prevent unregistered owners from using them.
 
-    When licence plates are returned to the provincial registry, a minor reimbursement may be offered in some jurisdictions. Simply take off your licence plates at the time of pick-up if you want to keep them, or ask one of our tow assistance representatives to do it for you. They'll be glad to assist you! 
-
-Please be aware that your city's parking authority may confiscate any automobiles left on public streets without licence plates. Although it doesn't happen often, the city may impounded your car if it is left unregistered on the street before our towing personnel arrive. These impound fees are not the responsibility of InTow.
-    `
-    ,
-    `
-    We provide our services in several regions around Canada, and we're always adding more cities. Upon receiving your online submission, we will try to locate an agent to pick up your car if we do not currently service your region.
-    `
-    ,
-    `
-    The cost of having your car towed is not your responsibility. The cost of towing is covered if the car is recycled. The towing fee is subtracted from the vehicle's sale price if it is consigned to the auction.
-    `
-    ,
-    `
-    It's advantageous for the charity if you drop off your car at our selling agent since it prevents transport expenses from being subtracted from your gift. Depending on whether we can sell or recycle your given vehicle, we have several drop-off sites. Once your online form is complete, we may give you drop-off locations and instructions.
-    `
-    ,
-    `
-    Yes! ANY recognised Canadian charity is eligible to receive a car donation. You will have the option to select any charity not currently on our receiving list when filling out your gift form (add it into the extra notes section). In order to complete the form, you must also choose a second charity from our active drop-down list.
-    `
-    ,
-    `
-    Yes, you will get a receipt for your gift that you may use as tax deduction. Guaranteed!
-    `
-    ,
-    `After the sale of your vehicle and our accounting process is complete, we will send you an email confirming your donation has been sent to the charity. You should then receive your tax receipt within 2 weeks of the charity receiving your gift.
-    `
-    ,
-    `
-    We will email you to confirm your gift has been sent to the charity after the sale of your car and our accounting procedure are finished. Within two weeks of the charity receiving your contribution, you ought to obtain your tax receipt.
-    `
-    ,
-    `
-    Most of the time, to donate a boat, it must be dropped off to our local sales agent, and certain requirements will apply. To choose the optimal procedure, we'll work together with you and our auction agents. Visit the give now page to donate a boat right away. Please refer to FAQ #14 if you experience any issues while inputting the boat's serial number.
-    `
-    ,
-    `
-    We can help you donate their estate car, yes. Please complete our online submission form so that we can walk you through the procedure.
-    `
-    ,
-    `Give a Car Since 2005, Canada has been in the business of helping Canadian contributors and their preferred organisations. Due to the labor-intensive administrative procedure involved with Gifts in Kind donations, many charities are unable to accept this method of fundraising. In order to save your organisation time and resources, InTow handles the various processes required in processing a car for donation.
-
-    `
-]
+When licence plates are returned to the provincial registry, some jurisdictions may offer a minor reimbursement. If you want to keep your licence plates, simply remove them at the time of pick-up or have one of our tow assistance representatives do it for you. They will gladly assist you!
+Please be aware that any automobiles left on public streets without licence plates may be confiscated by your city's parking authority. Although it is rare, the city may impound your vehicle if it is left unregistered on the street before our towing crew arrives. These impound fees are not InTow's responsibility. `,
+  `
+We offer our services in several regions across Canada, and we are constantly adding new cities. If we do not currently service your region, we will try to find an agent to pick up your car after receiving your online submission.`,
+  `
+It is not your responsibility to pay for having your car towed. If the car is recycled, the towing fee is waived. If the vehicle is consigned to auction, the towing fee is deducted from the sale price.`,
+  `
+It benefits the charity if you drop off your car at our selling agent because it prevents transportation costs from being deducted from your donation. We have several drop-off locations depending on whether we can sell or recycle your vehicle. We may provide you with drop-off locations and instructions once your online form is completed. `,
+  `
+Yes! A car donation can be made to ANY known Canadian charity. When filling out your gift form, you will have the option of selecting any charity that is not currently on our receiving list (add it into the extra notes section). To finish the form, you must also select a second charity from our active drop-down list. `,
+  `
+Yes, you will receive a receipt for your contribution that you can use as a tax deduction. Guaranteed!`,
+  `Following the sale of your vehicle and the completion of our accounting process, we will send you an email confirming that your donation has been sent to the charity. After the charity receives your gift, you should receive your tax receipt within two weeks.`,
+  `
+After the sale of your car and our accounting procedure are completed, we will send you an email to confirm that your donation has been sent to the charity. You should receive your tax receipt within two weeks of the charity receiving your contribution.`,
+  `
+To donate a boat, it must usually be dropped off at our local sales agent, and certain conditions must be met. We will collaborate with you and our auction agents to determine the best procedure. To donate a boat right away, go to the give now page. If you have any problems entering the boat's serial number, please see FAQ #14 for assistance.`,
+  `
+Yes, we can assist you in donating their estate car. Please fill out our online submission form so we can walk you through the steps. `,
+  `Provide a Vehicle Canada has been in the business of assisting Canadian contributors and their preferred organisations since 2005. Many charities are unable to accept Gifts in Kind donations because of the time-consuming administrative procedures involved. InTow handles the various processes required in processing a car for donation, saving your organisation time and resources.
+    `,
+];
 
 const FAQ = () => {
-    return (
-        <div>
-            <Header />
-            <div className='main body ui container' style={{paddingBottom: "20px"}}>
-            <p className='red-heading' style={{marginBottom:"7.5px", marginTop:"20px"}}>Frequently Asked Questions(FAQ)</p>
-            <p style={{marginBottom: "45px"}}>Click a question to see its answer below</p>
-            <Accord id='1' title='What can i donate' content={contents[0]}/>
-            <Accord id='2' title='How do i donate my vechile' content={contents[1]} />
-            <Accord id='3' title='How much will my tax receipt be' content={contents[2]} />
-            <Accord id='4' title='My car hasnt run in year, can i still donate it' content={contents[3]} />
-            <Accord id='5' title='What if my vehicle is not registered' content={contents[4]} />
-            <Accord id='6' title='What if I do not have insurance' content={contents[5]} />
-            <Accord id='7' title='When will you pick up my car' content={contents[6]} />
-            <Accord id='8' title='What do i do with my license plates' content={contents[7]} />
-            <Accord id='9' title='Can you pick up my car from any location' content={contents[8]} />
-            <Accord id='10' title='Do i have to pay for my vechile to be towed' content={contents[9]} />
-            <Accord id='11' title='Can i drop off my vehicle' content={contents[10]} />
-            <Accord id='12' title='Can i donate my car to another charitable group' content={contents[11]} />
-            <Accord id='13' title='Is my donation tax deductible' content={contents[12]} />
-            <Accord id='14' title='When will I receive my tax receipt' content={contents[13]} />
-            <Accord id='15' title='The submission form will not accept my serial number' content={contents[14]}/>
-            <Accord id='16' title='How do i donate a boat' content={contents[15]} />
-            <Accord id='17' title='My loved one has passed. Can i donate their estate vechile' content={contents[16]} />
-            <Accord id='18' title='Is InTow a charity' content={contents[17]} />
-
-            </div>
-            <Footer />
-        </div>
-    )
-}
+  return (
+    <div>
+      <Header />
+      <div className="main body ui container" style={{ paddingBottom: "20px" }}>
+        <p className="red-heading" style={{ marginBottom: "7.5px", marginTop: "20px" }}>
+          Frequently Asked Questions(FAQ)
+        </p>
+        <p style={{ marginBottom: "45px" }}>Click a question to see its answer below</p>
+        <Accord id="1" title="What can I donate?" content={contents[0]} />
+        <Accord id="2" title="How do I Donate My Car?" content={contents[1]} />
+        <Accord id="3" title="What will the amount of my tax receipt be?" content={contents[2]} />
+        <Accord
+          id="4"
+          title="Can I still donate my car even though it hasn't run in a year?"
+          content={contents[3]}
+        />
+        <Accord id="5" title="What if my car isn't registered?" content={contents[4]} />
+        <Accord id="6" title="What if I don't have insurance?" content={contents[5]} />
+        <Accord id="7" title="When will you come to pick up my car?" content={contents[6]} />
+        <Accord
+          id="8"
+          title="What am I supposed to do with my licence plates?"
+          content={contents[7]}
+        />
+        <Accord
+          id="9"
+          title="Can you come to any location to pick up my car?"
+          content={contents[8]}
+        />
+        <Accord id="10" title="Do I have to pay to have my vehicle towed?" content={contents[9]} />
+        <Accord id="11" title="Can I drop off my car?" content={contents[10]} />
+        <Accord
+          id="12"
+          title="Can I give my car to another charitable organisation?"
+          content={contents[11]}
+        />
+        <Accord id="13" title="Is my contribution tax deductible?" content={contents[12]} />
+        <Accord id="14" title="When will I receive my tax receipt" content={contents[13]} />
+        <Accord id="15" title="When will I get my tax receipt?" content={contents[14]} />
+        <Accord id="16" title="How do I Make a Boat Donation?" content={contents[15]} />
+        <Accord
+          id="17"
+          title="My beloved has died. Can I donate their deceased vehicle?"
+          content={contents[16]}
+        />
+        <Accord id="18" title="Is InTow a non-profit organisation?" content={contents[17]} />
+      </div>
+      <Footer />
+    </div>
+  );
+};
 
 export default FAQ;
