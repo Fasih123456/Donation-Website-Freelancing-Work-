@@ -23,21 +23,21 @@ const WhyDonate = () => {
           <div>
             <Container>
               <Row>
-                <Col>
+                <Col className="white-col">
                   <Cards
                     src="img/Icons/tool.png"
                     title="Free Towing running or not"
                     text="Regardless of where you are, you can get free towing"
                   />
                 </Col>
-                <Col>
+                <Col className="white-col">
                   <Cards
                     src="img/Icons/money-flow.png"
                     title="100% Tax Deductible"
                     text="Greatest tax deduction available."
                   />
                 </Col>
-                <Col style={{ align: "left" }}>
+                <Col style={{ align: "left" }} className="white-col">
                   <Cards
                     src="img/Icons/group-users.png"
                     title="Help Your Community"

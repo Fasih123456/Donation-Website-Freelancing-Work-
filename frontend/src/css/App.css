@@ -10,8 +10,85 @@ div {
 * {
   font-family: "Cabin", sans-serif !important;
   font-size: 1em;
+  color: rgb(255, 255, 255) !important;
 }
 
 .post-meta {
   font-style: normal !important;
+}
+
+.moving-container {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  padding: 10px;
+  z-index: 1; /* added z-index property to ensure the container is displayed on top */
+  background-color: rgba(22, 21, 56, 0.95) !important;
+}
+
+.donate-button {
+  background-color: maroon;
+  color: white;
+  padding: 16px 40px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 25px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 20px;
+  z-index: 2; /* added z-index property to ensure the button is displayed on top of the container */
+}
+
+body {
+  background-color: rgba(22, 21, 56, 0.95) !important;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+
+.white-text,
+.post-meta {
+  color: rgb(255, 255, 255) !important;
+}
+
+form {
+  background-color: rgba(22, 21, 56, 0) !important;
+}
+
+.accordion-button,
+.accordion-collapse,
+.form-control {
+  background-color: black !important;
+}
+
+.card {
+  background-color: rgba(22, 21, 56, 0) !important;
+}
+
+.accordion-item,
+.accordion-header {
+  padding-bottom: 0px;
+}
+
+@media only screen and (max-width: 1000px) {
+  #mainNav {
+    background-color: rgba(100, 100, 100, 0.65) !important;
+  }
+}
+
+.white-col {
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
 }

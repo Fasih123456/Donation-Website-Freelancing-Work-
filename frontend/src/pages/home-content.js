@@ -13,7 +13,7 @@ const Homecontent = () => {
   return (
     <div>
       <Header />
-      <div class="container px-4 px-lg-5">
+      <div class="container px-4 px-lg-5 ">
         <div class="row gx-4 gx-lg-5 justify-content-center">
           <div class="col-md-10 col-lg-8 col-xl-7">
             <div class="post-preview">
@@ -24,7 +24,7 @@ const Homecontent = () => {
                   </h2>
                 </Link>
               </a>
-              <p class="post-meta">
+              <p class=" post-meta">
                 We make it easy for you and the organisation you care about to donate a car. Giving
                 old cars, removing cars, recycling cars, or just junking cars is a simple procedure
                 for you and the charity that will benefit. Every gift is an honour for us to handle,
@@ -116,13 +116,12 @@ const Homecontent = () => {
                       Missing Questions?
                     </Button>
                   </Col>
-                  <Col>
-                    <Link style={{ color: "white " }} to="/DonateToday" id="page1">
-                      <a class="btn btn-primary text-uppercase">Donate Now →</a>
-                    </Link>
-                  </Col>
                 </Row>
               </Container>
+
+              <div class="moving-container" style={{ backgroundColor: "rgb(22,21,56)" }}>
+                <button class="donate-button">Donate Now</button>
+              </div>
             </div>
           </div>
         </div>

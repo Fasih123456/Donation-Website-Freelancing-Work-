@@ -9,9 +9,6 @@ const Header = () => {
         <nav
           style={{
             overflow: "hidden",
-            position: "fixed",
-            backgroundColor: "rgb(100,100,100)",
-            opacity: "65%",
           }}
           class="navbar navbar-expand-lg navbar-light"
           id="mainNav"
