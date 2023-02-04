@@ -63,7 +63,7 @@ const Homecontent = () => {
               </Link>
               <p class="post-meta">
                 The charity that means the most to you benefits from your used automobile
-                contributions. Through InTow, you may choose to donate your car to ANY recognised
+                contributions. Through Give&Go, you may choose to donate your car to ANY recognised
                 Canadian charity, and we'll see to it that they have a simple time accepting it.
                 Since there are no costs associated with participating in our gift-receiving
                 programme, your charity of choice may use every dollar you donate to support the
@@ -72,7 +72,7 @@ const Homecontent = () => {
             </div>
 
             <div class="post-preview">
-              <h2 style={{ paddingBottom: "15px" }}>FAQ</h2>
+              <h2 style={{ paddingBottom: "15px" }}>Why Choose Give & Go</h2>
               <Container>
                 <Row>
                   <Col style={{ borderRightStyle: "solid" }}>
@@ -108,13 +108,6 @@ const Homecontent = () => {
                       title="What If I don't have insurance?"
                       content="Your car no longer requires insurance after it has been picked up by our towing provider and recycled. If your car is up for auction, we recommend that you keep coverage on it until it is sold. We'll notify you via email once your vehicle has been sold."
                     />
-                  </Col>
-                </Row>
-                <Row style={{ paddingTop: "20px" }}>
-                  <Col>
-                    <Button variant="dark" style={{ width: "40%" }} href="/contact">
-                      Missing Questions?
-                    </Button>
                   </Col>
                 </Row>
               </Container>

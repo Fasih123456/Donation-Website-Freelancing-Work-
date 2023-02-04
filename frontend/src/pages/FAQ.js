@@ -33,7 +33,7 @@ For more information on this subject, please see the link more info.
 The licence plates belong to the registered owner of the vehicle. If the licence plates are still attached to the car when it is donated, the auction house or recycling company will store or remove them. Recyclers frequently smash, shred, or mark licence plates to prevent unregistered owners from using them.
 
 When licence plates are returned to the provincial registry, some jurisdictions may offer a minor reimbursement. If you want to keep your licence plates, simply remove them at the time of pick-up or have one of our tow assistance representatives do it for you. They will gladly assist you!
-Please be aware that any automobiles left on public streets without licence plates may be confiscated by your city's parking authority. Although it is rare, the city may impound your vehicle if it is left unregistered on the street before our towing crew arrives. These impound fees are not InTow's responsibility. `,
+Please be aware that any automobiles left on public streets without licence plates may be confiscated by your city's parking authority. Although it is rare, the city may impound your vehicle if it is left unregistered on the street before our towing crew arrives. These impound fees are not Give&Go's responsibility. `,
   `
 We offer our services in several regions across Canada, and we are constantly adding new cities. If we do not currently service your region, we will try to find an agent to pick up your car after receiving your online submission.`,
   `
@@ -51,7 +51,7 @@ After the sale of your car and our accounting procedure are completed, we will s
 To donate a boat, it must usually be dropped off at our local sales agent, and certain conditions must be met. We will collaborate with you and our auction agents to determine the best procedure. To donate a boat right away, go to the give now page. If you have any problems entering the boat's serial number, please see FAQ #14 for assistance.`,
   `
 Yes, we can assist you in donating their estate car. Please fill out our online submission form so we can walk you through the steps. `,
-  `Provide a Vehicle Canada has been in the business of assisting Canadian contributors and their preferred organisations since 2005. Many charities are unable to accept Gifts in Kind donations because of the time-consuming administrative procedures involved. InTow handles the various processes required in processing a car for donation, saving your organisation time and resources.
+  `Provide a Vehicle Canada has been in the business of assisting Canadian contributors and their preferred organisations since 2005. Many charities are unable to accept Gifts in Kind donations because of the time-consuming administrative procedures involved. Give&Go's handles the various processes required in processing a car for donation, saving your organisation time and resources.
     `,
 ];
 
@@ -101,7 +101,7 @@ const FAQ = () => {
           title="My beloved has died. Can I donate their deceased vehicle?"
           content={contents[16]}
         />
-        <Accord id="18" title="Is InTow a non-profit organisation?" content={contents[17]} />
+        <Accord id="18" title="Is Give&Go a non-profit organisation?" content={contents[17]} />
       </div>
       <Footer />
     </div>
