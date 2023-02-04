@@ -72,42 +72,69 @@ const Homecontent = () => {
             </div>
 
             <div class="post-preview">
-              <h2 style={{ paddingBottom: "15px" }}>Why Choose Give & Go</h2>
+              <h2 style={{ paddingBottom: "15px" }}>Why Choose Give & Go?</h2>
               <Container>
-                <Row>
-                  <Col style={{ borderRightStyle: "solid" }}>
-                    <Accord
-                      id="1"
-                      title="What can I donate?"
-                      content={`We accept the majority of vehicles, including but not limited to cars, trucks, vans, SUVs, trailers, RVs, and boats. To be eligible, your vehicle must meet a few criteria. The registered owner, for example, or their legal representative, must donate the vehicle. A car must be registered in Canada. The vehicle must be "complete," with no significant component flaws. Vehicles with minor body damage are welcome. RVs, trailers, and boats will face additional restrictions. We are unable to accept vehicles with pending insurance claims. Vehicles that have liens or other encumbrances are not accepted. Although RVs must usually be dropped off, each case is handled differently.`}
-                    />
-                    <Accord
-                      id="1"
-                      title="How do I Donate My Car?"
-                      content={`To donate your vehicle, please follow the steps outlined below. From the home page, select the "Donate Now" button. To qualify your vehicle, you will need to answer a few simple questions here. On the donation form, include information about your vehicle, your contact information, and the organisation to which you want to donate. Examine the information you've provided, agree to the terms and conditions, and then submit your car donation request. Additional instructions for towing or dropping off will be provided. Check your inbox for our email confirmation. If you do not receive the confirmation message right away, please check your junk mail folder. For more information on this subject, please see the link more info.`}
-                    />
-                    <Accord
-                      id="1"
-                      title="What will the amount of my tax receipt be?"
-                      content="This total is determined by a number of factors. Please click on this link, more info, for more specific information."
-                    />
+                <Row className="row-section" style={{ paddingBottom: "0px" }}>
+                  <Col
+                    xs={6}
+                    className="col-section"
+                    style={{ borderRight: "2px maroon solid", borderBottom: "2px maroon solid" }}
+                  >
+                    <div className="content-section">
+                      <div className="text-section">
+                        <p className="text-section">
+                          <span class="material-symbols-outlined">volunteer_activism</span>
+                        </p>
+                      </div>
+                      <div>
+                        <p>Support Thousands through charity all across the globe</p>
+                      </div>
+                    </div>
                   </Col>
-                  <Col>
-                    <Accord
-                      id="1"
-                      title="Can I still donate my car even though it hasn't run in a year?"
-                      content="Yes, we can take non-running automobiles."
-                    />
-                    <Accord
-                      id="1"
-                      title="What if my car isn't registered"
-                      content={`There must be proof of ownership on file. A bill of sale, a letter from your local registry requesting "evidence of last car registration," or a current or expired registration are all acceptable forms of identification.`}
-                    />
-                    <Accord
-                      id="1"
-                      title="What If I don't have insurance?"
-                      content="Your car no longer requires insurance after it has been picked up by our towing provider and recycled. If your car is up for auction, we recommend that you keep coverage on it until it is sold. We'll notify you via email once your vehicle has been sold."
-                    />
+                  <Col xs={6} className="col-section" style={{ borderBottom: "2px maroon solid" }}>
+                    <div className="content-section">
+                      <div className="text-section">
+                        <p className="text-section">
+                          <span class="material-symbols-outlined">local_shipping</span>
+                        </p>
+                      </div>
+                      <div>
+                        <p>Find a new home for your ride - Enjoy our Stress-Free Pick Up</p>
+                      </div>
+                    </div>
+                  </Col>
+                </Row>
+                <Row className="row-section">
+                  <Col xs={6} className="col-section" style={{ borderRight: "2px maroon solid" }}>
+                    <div className="content-section">
+                      <div className="text-section">
+                        <p className="text-section">
+                          <span class="material-symbols-outlined">monetization_on</span>
+                        </p>
+                      </div>
+                      <div>
+                        <p>Get a tax receipt NOW worth $700 or more!</p>
+                      </div>
+                    </div>
+                  </Col>
+                  <Col xs={6} className="col-section">
+                    <div className="content-section">
+                      <div className="text-section">
+                        <p className="text-section">
+                          <span class="material-symbols-outlined">car_crash</span>
+                        </p>
+                      </div>
+                      <div>
+                        <p>We will even take your car if it has not run in years</p>
+                      </div>
+                    </div>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col xs={6}>
+                    <div>
+                      <Button href="/WhyDonate">Find Out More</Button>
+                    </div>
                   </Col>
                 </Row>
               </Container>
