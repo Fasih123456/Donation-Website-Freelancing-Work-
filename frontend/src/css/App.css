@@ -5,7 +5,6 @@
 
 * {
   font-size: 85%;
-  font-family: "League Spartan", sans-serif;
 }
 
 .nav-anchor {
@@ -117,8 +116,14 @@ form,
 }
 
 p,
-.normal-text {
+.normal-text,
+input,
+.form-check {
   font-size: 13px;
+}
+
+.form-label {
+  font-size: 13px !important;
 }
 
 .row-section {

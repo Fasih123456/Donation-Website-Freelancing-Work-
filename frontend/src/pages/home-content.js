@@ -130,13 +130,17 @@ const Homecontent = () => {
                     </div>
                   </Col>
                 </Row>
-                <Row>
-                  <Col xs={6}>
-                    <div>
-                      <Button href="/WhyDonate">Find Out More</Button>
-                    </div>
-                  </Col>
-                </Row>
+
+                <div className="content-section">
+                  <div className="text-section">
+                    <Button
+                      style={{ backgroundColor: "purple", borderRadius: "20px", width: "20%" }}
+                      href="/WhyDonate"
+                    >
+                      Find Out More
+                    </Button>
+                  </div>
+                </div>
               </Container>
 
               <div class="moving-container" style={{ backgroundColor: "rgb(22,21,56)" }}>
