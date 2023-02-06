@@ -118,7 +118,9 @@ form,
 p,
 .normal-text,
 input,
-.form-check {
+.form-check,
+form,
+label {
   font-size: 13px;
 }
 
