@@ -15,7 +15,7 @@ const Header = () => {
         >
           <div class="container px-4 px-lg-5">
             <a class="navbar-brand" style={{ color: "white" }} href="/">
-              <img src="img/logo.png" style={{ height: "60px" }} />
+              <img src="img/logo.png" style={{ height: "75px" }} />
             </a>
             <button
               class="navbar-toggler"

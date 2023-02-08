@@ -71,6 +71,8 @@ const Homecontent = () => {
               </p>
             </div>
 
+            <hr class="my-4" />
+
             <div>
               <Row style={{ height: "50%" }}>
                 <Col>
