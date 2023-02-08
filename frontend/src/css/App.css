@@ -159,6 +159,14 @@ form {
   .form-label {
     font-size: 10px !important;
   }
+
+  h1 {
+    font-size: 80% !important;
+  }
+
+  .subheading {
+    font-size: 80% !important;
+  }
 }
 
 .white-col {
