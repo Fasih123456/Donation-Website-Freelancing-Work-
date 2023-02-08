@@ -137,8 +137,27 @@ form {
     font-size: 10px !important;
   }
 
-  * {
-    font-size: 95% !important;
+  h2 {
+    font-size: 15px;
+  }
+
+  .accordion-body {
+    font-size: 10px;
+  }
+
+  p,
+  .normal-text,
+  input,
+  .form-check,
+  form,
+  label,
+  ul,
+  li {
+    font-size: 10px;
+  }
+
+  .form-label {
+    font-size: 10px !important;
   }
 }
 
