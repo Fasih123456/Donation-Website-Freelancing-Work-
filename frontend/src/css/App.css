@@ -70,6 +70,7 @@ div {
 
 body {
   background-color: rgba(22, 21, 56, 0.95) !important;
+  border: 1px solid white;
 }
 
 h2 {
@@ -129,7 +130,15 @@ form {
   }
 
   #mainNav {
-    background-color: rgba(22, 21, 56, 0.95) !important;
+    background-color: rgba(22, 21, 56) !important;
+  }
+
+  .home-faq {
+    font-size: 10px !important;
+  }
+
+  * {
+    font-size: 95% !important;
   }
 }
 
