@@ -27,8 +27,8 @@ const Header = () => {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              Menu
-              <i class="fas fa-bars"></i>
+              <p style={{ display: "none" }}>Menu</p>
+              <i class="fas fa-bars" style={{ height: "25px" }}></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
               <Navigation />
