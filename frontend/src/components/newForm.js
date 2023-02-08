@@ -413,7 +413,7 @@ const NewForm = () => {
         <ProgressBar
           variant="success"
           now={(currentSection * 100) / 4}
-          label={`Stage ${currentSection}`}
+          label={`Step ${currentSection}`}
           style={{
             height: "45px",
             paddingBottom: "0px",
