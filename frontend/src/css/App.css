@@ -138,11 +138,11 @@ form {
   }
 
   h2 {
-    font-size: 15px;
+    font-size: 1.3rem !important;
   }
 
   .accordion-body {
-    font-size: 10px;
+    font-size: 10px !important;
   }
 
   p,
@@ -153,7 +153,7 @@ form {
   label,
   ul,
   li {
-    font-size: 10px;
+    font-size: 10px !important;
   }
 
   .form-label {
@@ -169,12 +169,12 @@ form {
 }
 
 h2 {
-  font-size: 1.75rem !important;
+  font-size: 1.75rem;
   color: #ff4c4c;
 }
 
 h3 {
-  font-size: 1.5rem !important;
+  font-size: 1.5rem;
   color: #ff4c4c;
 }
 
@@ -207,7 +207,7 @@ li {
 }
 
 .form-label {
-  font-size: 13px !important;
+  font-size: 13px;
 }
 
 .row-section {
