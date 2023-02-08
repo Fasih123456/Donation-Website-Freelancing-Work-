@@ -114,25 +114,18 @@ form {
   }
 
   .donate-button {
-    background-color: maroon;
-    color: white;
-    border: none;
-
-    display: inline-block;
     border-radius: 15px;
     font-family: "Comic Sans MS", cursive, sans-serif !important;
     font-size: 12px;
     line-height: 1.25; /* increased line-spacing */
-    z-index: 2;
     padding: 10px 15px;
-    font-weight: bold;
     width: 30%;
   }
 
   #find-out-more {
     background-color: purple;
     border-radius: 15px;
-    width: 40%;
+    width: 50%;
   }
 }
 
