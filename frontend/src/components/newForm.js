@@ -411,9 +411,15 @@ const NewForm = () => {
     <div>
       <Container style={{ paddingBottom: "30px" }}>
         <ProgressBar
+          variant="success"
           now={(currentSection * 100) / 4}
-          label={`${sectionNames[currentSection]}`}
-          style={{ height: "45px", paddingBottom: "0px", borderRadius: "20px" }}
+          label={`Stage ${currentSection}`}
+          style={{
+            height: "45px",
+            paddingBottom: "0px",
+            borderRadius: "25px",
+            backgroundColor: "maroon",
+          }}
         />
       </Container>
       <Container>

@@ -71,6 +71,75 @@ const Homecontent = () => {
               </p>
             </div>
 
+            <div>
+              <Row style={{ height: "50%" }}>
+                <Col>
+                  <h3>Contact Less Towing</h3>
+                  <p>
+                    Experience the peace of mind with contactless towing. Our donation partners
+                    prioritize your health and safety by implementing the following measures:
+                  </p>
+                  <li>No physical contact with drivers </li>
+                  <li>Frequent handwashing and cleaning of tow truck equipment</li>
+                  <li>Social/physical distancing</li>
+                </Col>
+              </Row>
+              <Row></Row>
+            </div>
+
+            <aside class="padding-md">
+              <div class="grid-container text-center">
+                <h3>FAQs</h3>
+                <Row>
+                  <Col>
+                    <div class="faq-split">
+                      <div class="faq-item">
+                        <a href="/FAQ?faq=faq6865" className="normal-text home-faq">
+                          How do I donate my vehicle?
+                        </a>
+                      </div>
+
+                      <div class="faq-item">
+                        <a href="/FAQ?faq=faq6862" className="normal-text home-faq">
+                          Do you pickup in my region?
+                        </a>
+                      </div>
+
+                      <div class="faq-item">
+                        <a href="/FAQ?faq=faq6868" className="normal-text home-faq">
+                          How quickly can you pick up my vehicle?
+                        </a>
+                      </div>
+                    </div>
+                  </Col>
+
+                  <Col>
+                    <div class="faq-item">
+                      <a href="/FAQ?faq=faq6858" className="normal-text home-faq">
+                        Can I donate a vehicle that doesn’t run?{" "}
+                      </a>
+                    </div>
+
+                    <div class="faq-item">
+                      <a href="/FAQ?faq=faq6867" className="normal-text home-faq">
+                        How much of a tax receipt will I get?{" "}
+                      </a>
+                    </div>
+
+                    <div class="faq-item">
+                      <a href="/FAQ?faq=faq6857" className="normal-text home-faq">
+                        Can I call you to donate my vehicle?
+                      </a>
+                    </div>
+
+                    <a href="/faq" class="more-btn">
+                      More FAQs
+                    </a>
+                  </Col>
+                </Row>
+              </div>
+            </aside>
+
             <div class="post-preview">
               <h2 style={{ paddingBottom: "15px" }}>Why Choose Give & Go?</h2>
               <Container>

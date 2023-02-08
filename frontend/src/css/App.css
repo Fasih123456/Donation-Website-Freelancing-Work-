@@ -47,6 +47,21 @@ div {
   width: 15%;
 }
 
+.progress-bar {
+  background-color: maroon;
+  color: white;
+  border: none;
+
+  display: inline-block;
+  border-radius: 25px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 16px;
+  line-height: 1.5; /* increased line-spacing */
+  z-index: 2;
+  padding: 15px 20px;
+  font-weight: bold;
+}
+
 body {
   background-color: rgba(22, 21, 56, 0.95) !important;
 }
@@ -74,6 +89,7 @@ form {
 .accordion-button,
 .accordion-collapse,
 .form-control {
+  color: white;
   background-color: black !important;
 }
 
@@ -89,6 +105,15 @@ form {
 @media only screen and (max-width: 1000px) {
   #mainNav {
     background-color: rgba(100, 100, 100, 0.65) !important;
+  }
+
+  * {
+    font-size: 80% !important;
+  }
+
+  .donate-button {
+    max-width: 150px;
+    width: 30%;
   }
 }
 
@@ -116,6 +141,14 @@ form,
 ul,
 li {
   color: rgb(255, 255, 255) !important;
+}
+
+.accordion-body {
+  font-size: 13px;
+}
+
+.home-faq:hover {
+  color: #ff4c4c !important;
 }
 
 p,
