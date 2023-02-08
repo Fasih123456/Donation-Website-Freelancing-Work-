@@ -202,10 +202,7 @@ const Homecontent = () => {
 
                 <div className="content-section">
                   <div className="text-section">
-                    <Button
-                      style={{ backgroundColor: "purple", borderRadius: "20px", width: "20%" }}
-                      href="/WhyDonate"
-                    >
+                    <Button id="find-out-more" href="/WhyDonate">
                       Find Out More
                     </Button>
                   </div>
