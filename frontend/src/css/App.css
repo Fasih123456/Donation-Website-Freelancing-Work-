@@ -99,19 +99,22 @@ form {
   margin-right: 5px;
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
   font-size: 1.75rem !important;
+  color: #ff4c4c;
+}
+
+h3 {
+  font-size: 1.5rem !important;
   color: #ff4c4c;
 }
 
 p,
 button,
 form,
-.normal-text {
+.normal-text,
+ul,
+li {
   color: rgb(255, 255, 255) !important;
 }
 
@@ -120,7 +123,9 @@ p,
 input,
 .form-check,
 form,
-label {
+label,
+ul,
+li {
   font-size: 13px;
 }
 
@@ -146,4 +151,8 @@ label {
 .text-section {
   padding-bottom: 0px;
   margin-bottom: 0px;
+}
+
+.active {
+  background-color: green;
 }

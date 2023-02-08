@@ -6,6 +6,7 @@ import WhyDonate from "./WhyDonate";
 import DonateToday from "./DonateToday";
 import FAQ from "./FAQ";
 import Contact from "./Contact";
+import newForm from "../components/newForm";
 
 import "../css/App.css";
 import "../css/style.css";
