@@ -108,7 +108,18 @@ form {
   }
 
   .donate-button {
-    max-width: 150px;
+    background-color: maroon;
+    color: white;
+    border: none;
+
+    display: inline-block;
+    border-radius: 15px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 12px;
+    line-height: 1.25; /* increased line-spacing */
+    z-index: 2;
+    padding: 10px 15px;
+    font-weight: bold;
     width: 30%;
   }
 }
