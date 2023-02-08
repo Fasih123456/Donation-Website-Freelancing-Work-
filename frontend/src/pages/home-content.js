@@ -25,7 +25,7 @@ const Homecontent = () => {
                 </Link>
               </a>
               <p class=" post-meta">
-                <li>Phone Number: 4168235930</li>
+                <li style={{ fontSize: "30px" }}>Phone Number: 4168235930</li>
                 We make it easy for you and the organisation you care about to donate a car. Giving
                 old cars, removing cars, recycling cars, or just junking cars is a simple procedure
                 for you and the charity that will benefit. Every gift is an honour for us to handle,
